@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    padding: 0;
+}
+
+
+/* Temporary Styles */
+
+.bg-image {
+    background-color: #c5c584;
+}
+
+/* Fonts & Colors
+Headers: #798b7d
+CTA: #afae70
+Paragraph: #1f211e
+Background: #f9f5f4
+font-family: 'Alice', serif;
+font-family: 'Sacramento', cursive;
+*/
+
+
+/* Universal Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Alice', serif;
+    color: #1f211e
+}
+
+p {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sacramento', cursive;
+    color: #798b7d;
+    font-size: 4rem;
+    text-transform: lowercase;
+    line-height: 1;
+}
+
+h1 {
+    line-height: 0rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+  }
+
+a {
+    color: #afae70;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #798b7d;
+    transition: 0.5s;
+}
+
+nav a {
+    color: white;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+nav a:hover {
+    color: #afae70;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    transition: 0.5s;
+    padding-bottom: 0.2rem;
+}
+
+form input,
+form textarea {
+  width: 100%; 
+  margin: 0.5rem 0; 
+  padding: 0.5rem; 
+  border: 1px solid #f0f0f0; 
+  outline: none; 
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+form input:focus, 
+form textarea:focus { 
+  border-color: #afae70; 
+}
+
+textarea { 
+  min-height: 8rem;
+} 
+
+form label {
+  margin-top: 1.5rem; 
+  display: block; 
+  color: inherit; 
+  font-weight: bold;
+}
+
+form button {
+  background-color: #afae70; 
+  color: white; 
+  font-family: 'Sacramento', cursive;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  letter-spacing: .15rem;
+  border: 1px solid; 
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0; 
+}
+
+form button:hover {
+    background-color: #f9f5f4;
+    color: #afae70;
+    border: 1px solid #afae70;
+    transition: 0.5s;
+}
+
+/* Utility Classes */
+
+.right {text-align: right;}
+.left {text-align: left;}
+.center {text-align: center;}
+
+.tall-30 {height: 30vh;}
+.tall-40 {height: 40vh;}
+.tall-50 {height: 50vh;}
+.tall-60 {height: 60vh;}
+.tall-70 {height: 70vh;}
+.tall-80 {height: 80vh;}
+.tall-90 {height: 90vh;}
+.tall-100 {height: 100vh;}
+
+.padded {padding: 5%;}
+.padded-0 {padding: 0;}
+.padded-1 {padding: 1%}
+.padded-10 {padding: 10%}
+
+.padded-lr-5 {padding: 0 5%;}
+
+.margin-bottom-1 {margin-bottom: 1rem;}
+.margin-bottom-2 {margin-bottom: 2rem;}
+
+.bg-dark {background-color: #798b7d}
+.bg-light {background-color: #f9f5f4}
+
+.light-text {color: white;}
+.dark-text {color: #798b7d;}
+.cta-text {color: #afae70}
+.header-text {
+    color: #798b7d;
+    font-family: 'Sacramento', cursive;
+}
+
+.text-2 {font-size: 2rem;}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.heading {
+    color: white;
+    font-size: 4rem;
+    text-transform: lowercase;
+    font-family: 'Alice', serif;
+}
+
+.feature {
+    font-family: 'Sacramento', cursive;
+}
+
+.work-with-me-text {
+    font-size: 2.2rem;
+}
+
+.card {
+    border: 10px solid white;
+  }
+
+.price {
+    font-size: 3rem;
+}
+
+.border-light {border: 1px solid white;}
+
+.relative {position: relative;}
+
+
+.fab {
+    font-size: 2rem;
+    margin-right: 1.5rem;
+}
+
+.bg-herbs {
+    background-image: url(/images/ioc-project-1-herbs.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-leaves {
+    background-image: url(/images/ioc-project-1-leaves.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-mix {
+    background-image: url(/images/ioc-project-1-mix.jpg);
+    background-size: cover;
+    background-position: 50% 57%;
+    background-repeat: no-repeat;
+}
+
+.bg-shadow {
+    background-image: url(/images/ioc-project-1-shadow.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.bg-woman {
+    background-image: url(/images/ioc-project-1-woman.jpg);
+    background-size: cover;
+    background-position: 50% 38%;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 0 0;
+}
+
+.bg-field {
+    background-image: url(/images/ioc-project-1-field.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+/* Header Styles */
+.header-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: .5rem;
+}
+
+@media (max-width: 48em) {
+    .horizontal-scroll {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 36em) {
+    .mob-margin-top-2 {margin-top: 2rem;}
+    .mob-margin-bottom-2 {margin-bottom: 2rem;}
+    .mob-right {text-align: right;}
+    .mob-center {text-align: center;}
+    .mob-icons {margin: 1.5rem;}
+}
