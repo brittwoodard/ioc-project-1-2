@@ -1,6 +1,25 @@
 --- 
 layout: default
 title: Gallery
+gallery: 
+ - column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-1.jpg
+- column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-2.jpg
+- column-size: col-4_xs-12
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-3.jpg
+- column-size: col-4_xs-12
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-4.jpg
+- column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-5.jpg
+- column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-6.jpg
 ---
 
 <!-- <section class="grid">
@@ -27,8 +46,10 @@ title: Gallery
   <section class="grid">
 
     {% for item in page.gallery %}
-    <div class="col-4_xs-6">
-      <div class="bg-image square bg-sky"></div>
+    <div class="{{item.column-size}}">
+      <div class="bg-image {{item.aspect-ration}}"
+           style="background-image: url('{{item.background_image}}');">
+      </div>
     </div>
     {% endfor %}
     
