@@ -13,6 +13,9 @@
 
 .bg-image {
     background-color: #c5c584;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Fonts & Colors
