@@ -7,7 +7,7 @@ _select_data:
     - landscape-wide
 
   positionss:
-    - bg-pos-t: Top
+    -bg-pos-t: Top
     - bg-pos-b: Bottom
     - bg-pos-l: Left Center
     - bg-pos-r: Right Center
