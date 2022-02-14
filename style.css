@@ -249,6 +249,37 @@ form button:hover {
     opacity: 0.6;
 }
 
+/* Gallery Styles */
+/* Image Aspect Ratios */
+.square {
+  padding-bottom: 100%;
+}
+
+.landscape {
+  padding-bottom: 66%;
+}
+
+.portrait-tall {
+  padding-bottom: 175%;
+}
+
+/* Image Position */
+.bg-pos-t {
+  background-position: top;
+}
+
+.bg-pos-b {
+  background-position: bottom;
+}
+
+.bg-pos-l {
+  background-position: left;
+}
+
+.bg-pos-r {
+  background-position: right;
+}
+
 /* Header Styles */
 .header-nav {
     position: absolute;
