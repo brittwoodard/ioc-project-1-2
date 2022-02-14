@@ -7,19 +7,19 @@ _select_data:
     - landscape-wide
 
   positionss:
-    -bg-pos-t: Top
+    - bg-pos-t: Top
     - bg-pos-b: Bottom
     - bg-pos-l: Left Center
     - bg-pos-r: Right Center
     - bg-pos-c: Center
 
   column-sizes:
-    - col-3: 1/4
-    - col-4: 1/3
-    - col-6: 1/2
+    - col-3: One quarter
+    - col-4: One third
+    - col-6: One half
     - col-12: Full width
-    - col-3_xs-6: 1/4 (1/2 mobile)
-    - col-3_xs-12: 1/4 (full width mobile)
-    - col-4_xs-6: 1/3 (1/2 mobile)
-    - col-4_xs-12: 1/3 (full width mobile)
-    - col-6_xs-12: 1/2 (full width mobile)
+    - col-3_xs-6: One quarter (One half mobile)
+    - col-3_xs-12: One quarter (Full width mobile)
+    - col-4_xs-6: One Third (On half mobile)
+    - col-4_xs-12: One third (Full width mobile)
+    - col-6_xs-12: One half (Full width mobile)
