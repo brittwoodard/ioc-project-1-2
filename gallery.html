@@ -37,7 +37,7 @@ gallery:
 <section class="grid padded">
 
     {% for item in page.gallery %}
-    <div class="{{item.column-size}} padded-25">
+    <div class="{{item.column-size}}">
       <div class="bg-image {{item.aspect-ratio}} {{item.position}}"
            style="background-image: url('{{item.background-image}}');">
       </div>
