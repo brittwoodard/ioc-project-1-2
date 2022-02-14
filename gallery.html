@@ -1,9 +1,28 @@
 --- 
 layout: default
 title: Gallery
+gallery: 
+ - column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-1.jpg
+- column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-2.jpg
+- column-size: col-4_xs-12
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-3.jpg
+- column-size: col-4_xs-12
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-4.jpg
+- column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-5.jpg
+- column-size: col-4_xs-6
+   aspect-ratio: square
+   background_image: /ioc-project-1-gallery-6.jpg
 ---
 
-<section class="grid">
+<!-- <section class="grid">
     <div class="col-4_xs-6">
       <div class="bg-image square bg-sky"></div>
     </div>
@@ -22,4 +41,14 @@ title: Gallery
     <div class="col-4_xs-6">
       <div class="bg-image square bg-stars bg-pos-t"></div>
     </div>
+  </section> -->
+
+  <section class="grid">
+
+    { % for item in page.gallery % }
+    <div class="col-4_xs-6">
+      <div class="bg-image square bg-sky"></div>
+    </div>
+    { % endfor % }
+    
   </section>
