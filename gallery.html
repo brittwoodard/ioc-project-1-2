@@ -34,10 +34,10 @@ gallery:
       background-image: /images/ioc-project-1-gallery-6.jpg
 ---
 
-<section class="grid padded-25">
+<section class="grid padded">
 
     {% for item in page.gallery %}
-    <div class="{{item.column-size}} padded">
+    <div class="{{item.column-size}} padded-25">
       <div class="bg-image {{item.aspect-ratio}} {{item.position}}"
            style="background-image: url('{{item.background-image}}');">
       </div>
