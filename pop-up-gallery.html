@@ -28,14 +28,16 @@ gallery:
    background-image: /images/ioc-project-1-gallery-6.jpg
 ---
 
-<section class="grid padded">
-
-    {% for item in page.gallery %}
-    <div class="{{item.column-size}} padded-25">
-      <div class="bg-image {{item.aspect-ratio}} {{item.position}}"
-           style="background-image: url('{{item.background-image}}');">
+<section>
+    <div class="grid" id="lightgallery">
+        {% for item in page.gallery %}
+      
+          <a class="{{item.column-size}} gallery-item" href="{{item.background_image}}">
+            <div class="bg-image {{item.aspect-ratio}} {{item.position}}" 
+                style="background-image: url('{{item.background_image}}');">
+            </div>
+          </a> 
+      
+        {% endfor %}
       </div>
-    </div>
-    {% endfor %}
-    
-  </section>
+</section>
